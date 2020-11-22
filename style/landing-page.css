@@ -1,0 +1,51 @@
+#page-landing {
+    background: url(images/background-landing-page.png), linear-gradient(329.54deg, #309467 0%, rgb(48, 134, 96) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+}
+.container {
+    width: min(75%, 90rem);
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+header a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+main {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+main article {
+    font-size: 4.5rem;
+    max-width: 28.5rem;
+}
+main article h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer img {
+    width: 100%;
+    max-width: 6.5rem;
+}
